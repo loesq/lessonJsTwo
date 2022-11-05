@@ -1,9 +1,18 @@
-const age = 20;
-const gender = 'muj' //
-if (age>18) {
-    console.log('нормалек');
-}else if(age < 18) {
-    console.log('шкила');
+let age = '4324';
+age = +age
+if (!isNaN(age)) {
+    if (age>18) {
+        console.log('вам больше 18');
+    }else if(age < 18) {
+        console.log('тебе меньше 18');
+    }else if(age===18){
+        console.log('18');
+    }else if(age>150) {
+        console.log('okay');
+    }
 }else {
-    console.log('багфикс успешен');
-}
+    console.log('введите корректные данные');
+};
+
+
+const gender = 'muj'
