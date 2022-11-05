@@ -1,7 +1,9 @@
-const age = 16;
+const age = 20;
 const gender = 'muj' //
 if (age>18) {
     console.log('нормалек');
+}else if(age < 18) {
+    console.log('шкила');
 }else {
-    console.log('хаха школьник');
+    console.log('багфикс успешен');
 }
